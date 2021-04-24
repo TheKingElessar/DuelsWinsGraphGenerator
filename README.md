@@ -2,7 +2,7 @@
 
 I've spent a while recently working on tracking my Duels progress. I realized I could parse the Minecraft log files to get data on my Duels games, so I wrote a few Python scripts to do that. I then put it into Google Sheets to graph it below:
 
-![](images/SkyWars Duels Wins by Date.png)
+![Graph](/images/SkyWars Duels Wins by Date.png)
 
 Maybe it's not interesting, or useful, but I guess it's sorta cool!
 
@@ -10,7 +10,7 @@ Maybe it's not interesting, or useful, but I guess it's sorta cool!
 
 When you win a Duels game, a few seconds later Hypixel sends something like this to you through the chat:
 
-![](images/duels progress.png)
+![Hypixel chat](/images/duels progress.png)
 
 It's entered into your client's log file, usually located in `C:\Users\[you]\AppData\Roaming\.minecraft\logs`. It looks like this:
 
